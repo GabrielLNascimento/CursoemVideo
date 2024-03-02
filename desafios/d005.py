@@ -1,0 +1,5 @@
+n1 = float(input('Digite um número: '))
+ant = (n1 - 1)
+suc = (n1 + 1)
+print('O sucessor do número {} é: {}'.format(n1, suc))
+print('O antecessor do número {} é: {}'.format(n1, ant))
