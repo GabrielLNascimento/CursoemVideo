@@ -1,4 +1,4 @@
-import math
+from math import floor
 num = float(input('Digite qualquer número: '))
-fim = math.floor(num)
+fim = int(num)
 print('Seu número arredondado é {}'.format(fim))

@@ -1,8 +1,7 @@
-import math
+from math import hypot
 
 n1 = float(input('Digite um valor de um cateto: '))
 n2 = float(input('Digite o segundo valor de um cateto: '))
+hip = hypot(n1, n2)
 
-hip = (pow(n1,2) + pow(n2,2))
-fim = math.sqrt(hip)
-print('A hipoternusa é {}'.format(fim))
+print('A hipoternusa é {:.2f}'.format(hip))
